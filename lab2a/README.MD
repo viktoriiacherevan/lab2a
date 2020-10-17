@@ -42,16 +42,16 @@ def show_numbers(pair):
         i += 1
 
 4.Створіть функцію яка може виконуватись з помилкою. У випадку її виникнення виведіть ERROR повідомлення за допомогою логування (Використайте бібліотеку logging). Якщо функція відпрацювала без помилки виведіть INFO повідомлення.
-def get_factorial(number):
-    try:
-        i = 1
-        factorial = 1
-        while i <= number:
-            factorial *= i
-            i += 1
-        logging.info(factorial)
-    except Exception as e:
-        logging.warning(e)
+*def get_factorial(number):
+*    try:
+*       i = 1
+*        factorial = 1
+*        while i <= number:
+*            factorial *= i
+*            i += 1
+*        logging.info(factorial)
+*    except Exception as e:
+*        logging.warning(e)
 
 
 
