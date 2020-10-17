@@ -31,3 +31,5 @@ if __name__ == '__main__':
         how_to_write_logs()
     else:
         main(args.opt)
+    common.show_numbers(False)
+    common.get_factorial(21)
