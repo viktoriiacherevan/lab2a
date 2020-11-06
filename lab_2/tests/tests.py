@@ -10,7 +10,7 @@ class TestClass(unittest.TestCase):
         self.test_result = greetings(12)
 
     def test_my_method(self):
-        self.assertTrue(self.test_result == "Добрий день!")
+        self.assertTrue(self.test_result == "Good day!")
 
 
 
