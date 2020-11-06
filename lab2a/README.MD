@@ -33,27 +33,25 @@ d. Також познайомтесь з логуванням. Запустіт
 
 3. Створіть Власну функцію у файлі common.py яка буде виводить всі парні числа до 100 якщо у функцію передати значення True і непарні якщо значення False. Викличте Вашу функцію з __main__ та виведіть результат.
 
-⋅⋅⋅def show_numbers(pair):
-⋅⋅⋅    i = 0
-⋅⋅⋅    while i < 101:
-⋅⋅⋅        if i % 2 == 0 and pair:
-            print(i)
-        elif i % 2 != 0 and not pair:
-            print(i)
-        i += 1
+        def show_numbers(pair):
+         i = 0
+          while i < 101:
+              if i % 2 == 0 and pair:
+                  print(i)
+              elif i % 2 != 0 and not pair:
+                  print(i)
+              i += 1
+        
 
 4.Створіть функцію яка може виконуватись з помилкою. У випадку її виникнення виведіть ERROR повідомлення за допомогою логування (Використайте бібліотеку logging). Якщо функція відпрацювала без помилки виведіть INFO повідомлення.
 
- def get_factorial(number):
-    try:
-         i = 1
-        factorial = 1
-        while i <= number:
-            factorial *= i
-            i += 1
-        logging.info(factorial)
-    except Exception as e:
-        logging.warning(e)
-
-
-
+    def get_factorial(number):
+     try:
+          i = 1
+          factorial = 1
+          while i <= number:
+              factorial *= i
+              i += 1
+          logging.info(factorial)
+     except Exception as e:
+          logging.warning(e)
