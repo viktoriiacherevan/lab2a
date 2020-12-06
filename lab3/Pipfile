@@ -14,4 +14,4 @@ python_version = "3.8"
 
 [scripts]
 server = "python manage.py runserver"
-appCreate = "python manage.py startapp main"
+app = "python manage.py startapp main"
