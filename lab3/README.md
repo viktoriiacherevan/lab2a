@@ -1,5 +1,5 @@
 1. Встановила django framework:
-![Иллюстрация к проекту](https://github.com/viktoriiacherevan/lab2a/raw/main/lab3/1.png)
+![Иллюстрация к проекту](1.PNG)
 
 2. Створила заготовку проекта template.
 
