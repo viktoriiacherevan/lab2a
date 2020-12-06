@@ -1,0 +1,17 @@
+ERROR 2020-12-06 13:26:15,330 root : Something happened wrong:HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03921D00>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+INFO 2020-12-06 13:28:02,704 root : Сервер доступний. Час на сервері: 06-12-2020 13:28
+INFO 2020-12-06 13:28:02,704 root : Запитувана сторінка: : http://localhost:8000/health/
+INFO 2020-12-06 13:28:02,705 root : Відповідь сервера місти наступні поля:
+INFO 2020-12-06 13:28:02,705 root : Ключ: date, Значення: 06-12-2020 13:28
+INFO 2020-12-06 13:28:02,705 root : Ключ: current_page, Значення: http://localhost:8000/health/
+INFO 2020-12-06 13:28:02,706 root : Ключ: server_info, Значення: {'OS Name': 'nt', 'User name': 'ACER'}
+INFO 2020-12-06 13:28:02,706 root : Ключ: client_info, Значення: {'User agent': 'python-requests/2.25.0', 'Remote address': '127.0.0.1', 'Host Header': 'localhost:8000', 'Remote host': ''}
+INFO 2020-12-06 13:29:24,341 root : Сервер доступний. Час на сервері: 06-12-2020 13:29
+INFO 2020-12-06 13:29:24,341 root : Запитувана сторінка: : http://localhost:8000/health/
+INFO 2020-12-06 13:29:24,341 root : Відповідь сервера місти наступні поля:
+INFO 2020-12-06 13:29:24,341 root : Ключ: date, Значення: 06-12-2020 13:29
+INFO 2020-12-06 13:29:24,342 root : Ключ: current_page, Значення: http://localhost:8000/health/
+INFO 2020-12-06 13:29:24,342 root : Ключ: server_info, Значення: {'OS Name': 'nt', 'User name': 'ACER'}
+INFO 2020-12-06 13:29:24,342 root : Ключ: client_info, Значення: {'User agent': 'python-requests/2.25.0', 'Remote address': '127.0.0.1', 'Host Header': 'localhost:8000', 'Remote host': ''}
+ERROR 2020-12-06 13:30:28,443 root : Something happened wrong:HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x038A1FB8>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
+ERROR 2020-12-06 13:31:32,528 root : Something happened wrong:HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03AD6190>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение'))
