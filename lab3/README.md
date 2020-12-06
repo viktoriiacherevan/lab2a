@@ -1,22 +1,22 @@
 1. Встановила django framework:
-![Иллюстрация к проекту](1.PNG)
+![ф](1.PNG)
 
 2. Створила заготовку проекта template.
 
 3. Перевірила роботу django сервера:
-![croll](2.png)
+![ф](2.PNG)
 
 4. Створила дві сторінки main & health
-![croll](3.png)
+![ф](3.PNG)
 
 5. Модифікувала функцію health:
-![croll](5.png)
+![ф](5.PNG)
 
 6. Дописала функціонал, що виводить повідомлення про недоступність сайту:
-![croll](6.png)
+![ф](6.PNG)
 
 7. Програма працює на бекграунді:
-![croll](7.png)
+![ф](7.PNG)
 
 8. Створила alias:
 [scripts]
@@ -24,4 +24,4 @@ server = "python manage.py runserver"
 app = "python manage.py startapp main"
 
 9. Добавила файл із логами:
-![croll](8.png)
+![ф](8.PNG)
