@@ -13,14 +13,14 @@ RUN apt-get install git -y && pip install pipenv
 WORKDIR /lab
 
 # Завантажуємо файли з Git
-RUN git clone https://github.com/viktoriiacherevan/lab4.git
+RUN git clone https://github.com/viktoriiacherevan/labs.git
 
 # Створюємо остаточну робочу папку з Веб-сайтом та копіюємо туди файли
 WORKDIR /app
-RUN cp -r /lab/devops_course/lab3/* .
+RUN cp -r /lab/labs/lab3/* .
 
 # Інсталюємо всі залежності
-RUN pipenv install
+RUN pipenv install requests
 
 # Відкриваємо порт 8000 на зовні
 EXPOSE 8000
